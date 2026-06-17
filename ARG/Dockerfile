@@ -1,6 +1,6 @@
 FROM almalinux
 ARG username
-RUN adduser $Akhil
+RUN adduser $username
 USER $username
 ARG COURSE
 ARG TRAINER
